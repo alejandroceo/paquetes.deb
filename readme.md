@@ -14,3 +14,8 @@ dpkg-deb --build uptime-display
 
 
 Este comando generará un archivo uptime-display.deb que puedes instalar en cualquier sistema compatible con Debian/Ubuntu.
+
+Instala el paquete en un sistema de prueba para verificar que todo funciona correctamente:
+
+sudo dpkg -i uptime-display.deb
+
